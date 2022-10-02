@@ -1,0 +1,109 @@
+.footer {
+    background: #F7F8FA;
+    padding-top: 100px;
+    padding-bottom: 124px;
+}
+.container-fluid{
+    max-width: 80%;
+}
+.footer-content {
+    list-style-type: none;
+}
+.footer-heading {
+    text-align: left;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1D293F;
+}
+.footer-body {
+    text-align: left;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #7C8087;
+}
+.subscribe {
+    width: 300px;
+    position: relative;
+}
+  
+input {
+    margin: 0px;
+    padding: 0px;
+    width: 150%;
+    /* height: 75px; */
+    background: #FFFFFF;
+    box-shadow: 0px 32px 84px rgba(14, 86, 124, 0.165308);
+    border-radius: 4px;
+    border-width:0px;
+    border:none;
+    outline:none;
+}
+
+.footer-input{
+    height: 75px; 
+}
+
+::placeholder{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8C97AC;
+}
+
+.subscribe-btn {
+    font-family: Circular Std;
+    color: white;
+    background: #258AFF;
+}
+
+@media only screen and (max-width: 600px) {
+    .subscribe {
+        width: 180px;
+        position: relative;
+    }
+    ::placeholder{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: white;
+    }
+    .subscribe-btn {
+        font-family: Circular Std;
+        color: white;
+        background: #258AFF;
+        border-radius: 5px;
+        transform: translateX(2px);
+    }
+  }
+
+  @media only screen and (max-width: 1050px) {
+    .subscribe {
+        width: 180px;
+        position: relative;
+    }
+    ::placeholder{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: white;
+    }
+    .subscribe-btn {
+        font-family: Circular Std;
+        color: white;
+        background: #258AFF;
+        border-radius: 5px;
+        transform: translateX(2px);
+    }
+  }

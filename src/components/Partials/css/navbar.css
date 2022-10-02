@@ -1,0 +1,90 @@
+.container-fluid {
+    max-width: 80%;
+}
+/* .navbar {
+    padding-bottom: 80px;
+} */
+.dsh{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    color: #374C82;
+
+}
+.xchange {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    color: #374C82;
+}
+.login {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #258AFF;
+    margin-right: 30px;
+    text-decoration: none;
+
+}
+.login:hover {
+    text-decoration: none;
+    color: #258AFF;
+}
+
+.get_started {
+    background: #258AFF;
+    border: #258AFF;
+    border-radius: 5px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+.get_started:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #1D293F;
+    text-decoration: none;
+}
+.menu:hover {
+    text-decoration: none;
+    color: #1D293F;
+}
+
+.navbar-container {
+    padding-left: -10px;
+}
+
+/* @media (min-width: 300px) and (max-width: 1200px) {
+    .navbar {
+        padding-top: 300px;
+    }
+} */

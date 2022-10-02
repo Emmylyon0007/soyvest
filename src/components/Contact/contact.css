@@ -1,0 +1,87 @@
+.contact_jumbotron {
+    background: linear-gradient(40deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../images/img/organic.jpg') no-repeat;;
+    background-size: cover;
+    background-position: center;
+    padding-left: 50px
+}
+
+.contact_flex{
+    flex-direction: column;
+}
+.contact_cv{
+    position: relative;
+    margin-top: -20vh;
+    background: #FFFFFF;
+}
+
+.contact-form {
+    display: block;
+    width: 100%;
+    padding-left: 00.375rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.contact_details {
+    align-items: center;
+    text-align: left;
+    list-style: none;
+}
+
+.contact_subtext{
+    padding-bottom: 100px;
+    color: white
+}
+
+.contac_details_header{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 29px;
+    color: #1D293F;
+}
+.contact_details_text{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #1D293F;
+    
+}
+.message-btn {
+    border: 1px solid #e5e7eb !important;
+    background-color: transparent;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #1D293F;
+}
+.contact_detail{
+    text-align: center;
+    
+}
+.fa-map-marker{
+    color: #258AFF;
+}
+.fa-envelope-o {
+    color: #258AFF;
+}
+.fa-phone{
+    color: #258AFF; 
+}

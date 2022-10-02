@@ -1,0 +1,303 @@
+.about_jumbotron {
+    background: linear-gradient(40deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../images/img/men.jpg') no-repeat;;
+    background-size: cover;
+    background-position: center;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* background-size: cover;
+    background-position: top;
+    padding: 20px */
+}
+
+.about_flex {
+    /* display: flex; */
+    flex-direction: column;
+}
+.about_card{
+    border-color:white;
+    position: relative;
+    margin-top: -12vh;
+    /* padding-left: 100px; */
+}
+
+.about_inner {
+    padding-top: 80px;
+    padding-bottom: 200px
+      
+}
+
+.about_dsh {
+    color: #F2F6FF;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 60px;
+    letter-spacing: -1px;
+}
+.about_xchange {
+    color: #F2F6FF;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 60px;
+    letter-spacing: -1px;
+}
+.about_menu {
+    color: #F2F6FF;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-decoration: none;
+}
+.about_menu:hover {
+    text-decoration: none;
+    color: #F2F6FF;
+}
+
+.about_text {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 49px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+.about_subtext {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.about_banner{
+    background: linear-gradient(40deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../images/img/recycle.jpg') no-repeat; 
+    background-size: cover;
+    background-position: center;
+    padding-top:150px;
+    padding-bottom: 170px;
+}
+
+.our_story{
+    background: #FFFFFF;
+}
+/* .about_story{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} */
+
+.about_story_text {
+    float: left;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #258AFF;
+}
+
+.about_story_subtext {
+    text-align: left;
+    float: left;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 50px;
+    color: #01053E;
+}
+.about_us_subtext {
+    text-align: left;
+    float: left;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* color: #01053E; */
+    color: #696871;
+}
+.about_story_smalltext {
+    text-align: left;
+    float: left;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #7C8087;
+}
+.safe_text {
+    text-align: left;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.500211px;
+    color: #696871;
+    padding-left: 60px;
+}
+.about_logo {
+    padding-top: 60px;
+}
+.about_number {
+    list-style-type: none;
+}
+
+.about_numbers {
+    list-style-type: none;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1.87579px;
+    color: #258AFF;
+}
+
+.about_numbers_text {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    color: #696871;
+    
+}
+.about_ratings {
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.about_info {
+    justify-content: center;
+}
+
+.faq {
+    justify-content: center;
+}
+.frequently_asked_questions{
+    background: #061E5B;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.frequently_subtext {
+    color: white;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.frequently_text {
+    color: white;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1.87579px;
+    color: #FFFFFF;
+}
+
+.frequently_asked_text{
+    text-align: left;
+}
+
+.faq_text {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.750316px;
+    color: #FFFFFF;    
+}
+
+.faq_subtext {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 28px; 
+    letter-spacing: -0.500211px;  
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* .about_banner{
+    background: url('../../img/banner2.png') no-repeat; 
+    background-size: cover;
+    background-position: center;
+    padding-top:150px;
+    padding-bottom: 170px;
+} */
+
+.trusted {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.trust_text {
+    text-align: left;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: -0.586207px;    
+    color: #1D293F;
+    
+}
+.trust_subtext {
+    text-align: left;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #7C8087;    
+}
+.trust_images{
+   float: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .about_inner {
+        padding-top: 30px;
+        padding-bottom: 300px
+    }
+    .about_text {
+        padding-left: 50px;
+    }
+    .about_subtext {
+        padding-left: 50px;
+    }
+    .our-story {
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .about_numbers {
+        padding-right: 45px;
+    }
+}
